@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: hotpink;
+  --secondary-color: #e4e8f0;
+  --tertiary-color: #9ca3af;
+  --background-color: #282828;
+}
+
+body {
+  font-family: system-ui;
+  color: #e4e8f0;
+  background-color: #282828;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
